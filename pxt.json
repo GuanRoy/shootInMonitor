@@ -1,0 +1,31 @@
+{
+    "name": "PH2.0手柄",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "sensors": "github:emakefun/pxt-sensorbit#7f48f378af1eac65a403c0d977c6810b6157e3ae",
+        "monitors": "github:emakefun/pxt-monitors#b76ec19c59dbee253d895a75ba13b21ac6b7c13e"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.0.12",
+        "tag": "v5.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/97491d6832cccab6b5bdc05b58e4c6b5dcc18cdd",
+        "target": "7.0.61",
+        "pxt": "8.0.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
